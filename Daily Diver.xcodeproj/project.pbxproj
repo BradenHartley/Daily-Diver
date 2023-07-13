@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E51AA5212A5F866800CA2CE1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51AA5202A5F866800CA2CE1 /* Card.swift */; };
+		E51AA5242A5F870300CA2CE1 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51AA5232A5F870300CA2CE1 /* DatabaseController.swift */; };
+		E51AA5272A5F88A300CA2CE1 /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51AA5262A5F88A300CA2CE1 /* Realm.swift */; };
+		E51AA5292A5F88B800CA2CE1 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51AA5282A5F88B800CA2CE1 /* Keychain.swift */; };
+		E51AA52B2A5F893700CA2CE1 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51AA52A2A5F893700CA2CE1 /* NetworkController.swift */; };
+		E51AA52E2A5F8E5800CA2CE1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51AA52D2A5F8E5800CA2CE1 /* User.swift */; };
+		E51AA5302A5F8EB800CA2CE1 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51AA52F2A5F8EB800CA2CE1 /* CardListView.swift */; };
+		E51AA5322A5F8EDA00CA2CE1 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51AA5312A5F8EDA00CA2CE1 /* CardListViewModel.swift */; };
+		E51AA5342A5F8EEB00CA2CE1 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51AA5332A5F8EEB00CA2CE1 /* CardViewModel.swift */; };
+		E51AA5362A5F8F0500CA2CE1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51AA5352A5F8F0500CA2CE1 /* CardView.swift */; };
 		E590E9C32A3D1F9800142040 /* Daily_DiverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590E9C22A3D1F9800142040 /* Daily_DiverApp.swift */; };
 		E590E9C52A3D1F9800142040 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590E9C42A3D1F9800142040 /* ContentView.swift */; };
 		E590E9C72A3D1F9A00142040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E590E9C62A3D1F9A00142040 /* Assets.xcassets */; };
@@ -14,6 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E51AA5202A5F866800CA2CE1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E51AA5232A5F870300CA2CE1 /* DatabaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		E51AA5262A5F88A300CA2CE1 /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
+		E51AA5282A5F88B800CA2CE1 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		E51AA52A2A5F893700CA2CE1 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		E51AA52D2A5F8E5800CA2CE1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E51AA52F2A5F8EB800CA2CE1 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		E51AA5312A5F8EDA00CA2CE1 /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
+		E51AA5332A5F8EEB00CA2CE1 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		E51AA5352A5F8F0500CA2CE1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E590E9BF2A3D1F9800142040 /* Daily Diver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Diver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E590E9C22A3D1F9800142040 /* Daily_DiverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_DiverApp.swift; sourceTree = "<group>"; };
 		E590E9C42A3D1F9800142040 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +52,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E51AA51A2A5F85DD00CA2CE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E51AA5202A5F866800CA2CE1 /* Card.swift */,
+				E51AA52D2A5F8E5800CA2CE1 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E51AA51C2A5F85FE00CA2CE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E590E9C42A3D1F9800142040 /* ContentView.swift */,
+				E51AA52F2A5F8EB800CA2CE1 /* CardListView.swift */,
+				E51AA5352A5F8F0500CA2CE1 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E51AA51E2A5F862A00CA2CE1 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				E51AA5312A5F8EDA00CA2CE1 /* CardListViewModel.swift */,
+				E51AA5332A5F8EEB00CA2CE1 /* CardViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		E51AA51F2A5F863B00CA2CE1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E590E9C22A3D1F9800142040 /* Daily_DiverApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E51AA5222A5F86E600CA2CE1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E51AA52C2A5F894000CA2CE1 /* Networking */,
+				E51AA5252A5F888800CA2CE1 /* Database */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E51AA5252A5F888800CA2CE1 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				E51AA5232A5F870300CA2CE1 /* DatabaseController.swift */,
+				E51AA5262A5F88A300CA2CE1 /* Realm.swift */,
+				E51AA5282A5F88B800CA2CE1 /* Keychain.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		E51AA52C2A5F894000CA2CE1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E51AA52A2A5F893700CA2CE1 /* NetworkController.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		E590E9B62A3D1F9800142040 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +134,11 @@
 		E590E9C12A3D1F9800142040 /* Daily Diver */ = {
 			isa = PBXGroup;
 			children = (
-				E590E9C22A3D1F9800142040 /* Daily_DiverApp.swift */,
-				E590E9C42A3D1F9800142040 /* ContentView.swift */,
+				E51AA51F2A5F863B00CA2CE1 /* App */,
+				E51AA51E2A5F862A00CA2CE1 /* View Models */,
+				E51AA51C2A5F85FE00CA2CE1 /* Views */,
+				E51AA51A2A5F85DD00CA2CE1 /* Models */,
+				E51AA5222A5F86E600CA2CE1 /* Controller */,
 				E590E9C62A3D1F9A00142040 /* Assets.xcassets */,
 				E590E9C82A3D1F9A00142040 /* Preview Content */,
 			);
@@ -137,8 +223,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E51AA5342A5F8EEB00CA2CE1 /* CardViewModel.swift in Sources */,
+				E51AA5322A5F8EDA00CA2CE1 /* CardListViewModel.swift in Sources */,
+				E51AA5272A5F88A300CA2CE1 /* Realm.swift in Sources */,
 				E590E9C52A3D1F9800142040 /* ContentView.swift in Sources */,
+				E51AA5242A5F870300CA2CE1 /* DatabaseController.swift in Sources */,
+				E51AA5212A5F866800CA2CE1 /* Card.swift in Sources */,
+				E51AA52E2A5F8E5800CA2CE1 /* User.swift in Sources */,
 				E590E9C32A3D1F9800142040 /* Daily_DiverApp.swift in Sources */,
+				E51AA52B2A5F893700CA2CE1 /* NetworkController.swift in Sources */,
+				E51AA5302A5F8EB800CA2CE1 /* CardListView.swift in Sources */,
+				E51AA5362A5F8F0500CA2CE1 /* CardView.swift in Sources */,
+				E51AA5292A5F88B800CA2CE1 /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
